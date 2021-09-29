@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
+  "composerIgnorePlatformReqs": null,
+  "rangeStrategy": "update-lockfile"
+}
